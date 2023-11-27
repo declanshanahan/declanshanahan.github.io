@@ -1,0 +1,157 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #EF3340;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+/* History Section styles */
+#history {
+    margin: 20px;
+}
+
+h2 {
+    color: #EF3340;
+    border-bottom: 2px solid #EF3340;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Famous Ex-Players */
+#famous-players {
+    margin-bottom: 30px;
+}
+
+#famous-players h3 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#famous-players ul {
+    list-style-type: none;
+}
+
+#famous-players li {
+    margin-bottom: 5px;
+}
+
+/* Notable Games */
+#notable-games {
+    margin-bottom: 30px;
+}
+
+#notable-games h3 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Rivalry with Tottenham */
+#tottenham-rivalry {
+    margin-bottom: 30px;
+}
+
+#tottenham-rivalry h3 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Arsène Wenger and the Invincible Season */
+#arsene-wenger {
+    margin-bottom: 30px;
+}
+
+#arsene-wenger h3 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #EF3340;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+}
